@@ -1,5 +1,11 @@
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/roboto) format(truetype);
+}
+
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "roboto", sans-serif;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -9,8 +15,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #1F2937;
+    padding: 10px 150px;
 }
 
 .header-links {
@@ -20,10 +26,52 @@ body {
     padding: 0;
     gap: 25px;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
+}
+
+.blade-one {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 75px 150px;
+}
+.main-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro-text {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.sub-text {
+    color: #E5E7EB;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0; 
+}
+
+.placeholder {
+    height: 200px;
+    width: 450px;
+    color: #E5E7EB;
+    background-color: #e5e7eb81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
