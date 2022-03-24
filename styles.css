@@ -137,3 +137,43 @@ body {
     font-weight: bold;
     text-align: right;
 }
+
+/* Blade four assets */
+
+.blade-four {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.cta {
+    display: flex; 
+    justify-content: space-around;
+    background-color: #3882F6;
+    padding: 50px 0px;
+    width: 875px;
+    border-radius: 8px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-sub {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-style: solid;
+    border-color:#F9FAF8;
+    border-width: 2px;
+    border-radius: 8px;
+    width: 125px;
+}
